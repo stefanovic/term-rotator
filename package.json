@@ -1,35 +1,26 @@
 {
   "name": "term-rotator",
   "version": "1.0.0",
-  "description": "Term Rotator is a React component for rotating terms with descriptions.",
-  "main": "src/index.js",
+  "description": "A simple term rotating component",
+  "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development --open",
     "build": "webpack --mode production"
   },
-  "keywords": [
-    "react",
-    "component",
-    "rotator",
-    "terms"
-  ],
-  "author": "Il tuo nome",
+  "author": "Stefanovic",
   "license": "MIT",
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-spring": "^9.0.0"
-  },
   "devDependencies": {
-    "@babel/core": "^7.14.0",
-    "@babel/preset-env": "^7.14.0",
-    "@babel/preset-react": "^7.13.0",
-    "babel-loader": "^8.2.2",
-    "css-loader": "^5.2.0",
-    "html-webpack-plugin": "^5.3.1",
-    "style-loader": "^2.0.0",
-    "webpack": "^5.36.0",
-    "webpack-cli": "^4.6.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.0.0",
+    "babel-loader": "^8.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   }
 }
+
