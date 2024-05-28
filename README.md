@@ -10,4 +10,6 @@ Term Rotator is a React component that displays rotating terms with descriptions
 Per installare il componente, esegui:
 
 ```bash
-npm install term-rotator
+npm install --save-dev html-webpack-plugin
+npm install @react-spring/web
+npm install
