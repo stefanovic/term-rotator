@@ -71,7 +71,7 @@ const  ReactTermRotator = () => {
           <div className="card shadow-sm rounded-lg border border-gray-300 p-4 text-white " style={{ backgroundColor: termSets[selectedSet][currentTermIndex].color }}>
             <div className="card-body">
 
-            <img src="/react.png" alt="React Logo" className="w-16 h-auto mx-auto mt-4" />
+            <img src="https://webstack.livedata.it/react.png" alt="React Logo" className="w-16 h-auto mx-auto mt-4" />
 <br></br>
               <animated.p ref={boxRef} style={animatedStyle} onClick={handleBoxClick}>
                 <a href={termSets[selectedSet][currentTermIndex].link} style={{ color: 'inherit', textDecoration: 'none' }}>
