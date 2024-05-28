@@ -4,7 +4,7 @@ Term Rotator is a React component that displays rotating terms with descriptions
 
 ## Demo
 
-![Term Rotator Demo](https://link-to-demo-gif-or-image](https://webstack.livedata.it/term-rotator-react-component.webp)
+![Term Rotator Demo](https://webstack.livedata.it/blog/terms-component-reattivita-componenti-react/)
 
 ## Installazione
 
