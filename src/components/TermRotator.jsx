@@ -54,7 +54,7 @@ const  ReactTermRotator = () => {
 
   return (
     <div className="container mt-5">
-      <div className="row mb-4">
+      <div className="row mb-4 text-center">
         <div className="col-md-6 mb-2">
           <div className="d-flex mb-3">
             {termSets.map((set, index) => (
@@ -68,7 +68,7 @@ const  ReactTermRotator = () => {
               </button>
             ))}
           </div>
-          <div className="card shadow-sm rounded-lg border border-gray-300 p-4 text-white " style={{ backgroundColor: termSets[selectedSet][currentTermIndex].color }}>
+          <div className="card shadow-sm rounded-lg border border-gray-300 p-4 text-white text-center " style={{ backgroundColor: termSets[selectedSet][currentTermIndex].color }}>
             <div className="card-body">
 
             <img src="https://webstack.livedata.it/react.png" alt="React Logo" className="w-16 h-auto mx-auto mt-4" />
