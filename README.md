@@ -5,9 +5,9 @@ Term Rotator is a React component that displays rotating terms with descriptions
 ## Demo
 [Term Rotator Demo](https://webstack.livedata.it/blog/terms-component-reattivita-componenti-react/)
 
-## Installazione
+## Installation
 
-Per installare il componente, esegui:
+To install the component, run:
 
 ```bash
 npm install --save-dev html-webpack-plugin
